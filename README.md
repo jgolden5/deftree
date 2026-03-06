@@ -4,23 +4,23 @@ The goal of this project is to dissect every word in a definition until I unders
 
 ## Data:
 ### definitions.txt
-A collection of words whose definitions were previously unknown or unclear to me (list of _definitions_ as defined below)
+> A collection of words whose definitions were previously unknown or unclear to me (list of _definitions_ as defined below)
 ### roots.txt
-A collection of words whose definitions I already knew (list of _roots_ as defined below)
+>A collection of words whose definitions I already knew (list of _roots_ as defined below)
 
 ## Concepts:
 ### Definition
-A word in the definitions.txt file that is followed by a single dash and then a simple, one-line explanation of said word.
+> A word in the definitions.txt file that is followed by a single dash and then a simple, one-line explanation of said word.
 ### Root
-A word which I already know to such a degree that writing its definition would be redundant.
+> A word which I already know to such a degree that writing its definition would be redundant.
 ### Branch
-A word which I do not know already, and therefore requires further expounding. A branch is considered higher-level than the current definition.
+> A word which I do not know already, and therefore requires further expounding. A branch is considered higher-level than the current definition.
 ### Leaf
-A word which currently has no higher level definition, meaning no words are written in terms 
+> A word which currently has no higher level definition, meaning no words are written in terms 
 ### Tree
-A set of definitions in which every relevant word is chained together in a hierarchical structure ending at its roots.
+> A set of definitions in which every relevant word is chained together in a hierarchical structure ending at its roots.
 ### DefinitionQueue
-A queue of definitions that are next in line to be added to the definitions.txt file.
+> A queue of definitions that are next in line to be added to the definitions.txt file.
 
 ## Main operation: adding a new definition
 1. User wants to add a definition of a new word to a file called definitions.txt (this definition gets pulled from definitionQueue, so if a definition is to be added, it must first be added to definitionQueue)
@@ -39,3 +39,4 @@ _User may break from definitionQueue and choose to continue later and the defini
 _Read the definition of some term with syntax coloring, and the option to traverse its deftree by selecting from a list of options_
 * Example:
   * <p><span style="color:purple; font-weight: bold">Compiler</span> - a program that translates code writtten in a <span style="color:orange">high-level</span> programming language into <span style="color:orange">machine-readable-instructions</span>.</p>
+
